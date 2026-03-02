@@ -31,9 +31,9 @@ const IndexPage = () => {
       <Hero
         maxWidth={'500px'}
         image={'/banner1.png'}
-        title={'Latent'}
-        subtitle={'Becomes'}
-        ctaText={'Potential'}
+        title={'Latent Becomes Potential'}
+        subtitle={'KIM MUN JUNG'}
+        ctaText={'PORTFOLIO'}
         ctaAction={goToShop}
       />
 
@@ -52,7 +52,7 @@ const IndexPage = () => {
       {/* Collection Container */}
       <div className={styles.collectionContainer}>
         <Container size={'large'}>
-          <Title name={'New Collection'} />
+          <Title name={'Portfolio'} />
           <ProductCollectionGrid />
         </Container>
       </div>
@@ -60,7 +60,7 @@ const IndexPage = () => {
       {/* New Arrivals */}
       <div className={styles.newArrivalsContainer}>
         <Container>
-          <Title name={'New Arrivals'} link={'/shop'} textLink={'view all'} />
+          <Title name={'2025'} link={'/shop'} textLink={'view all'} />
           <ProductCardGrid
             spacing={true}
             showSlider
@@ -79,9 +79,10 @@ const IndexPage = () => {
             altImage={'highlight image'}
             miniImage={'/highlightmin.png'}
             miniImageAlt={'mini highlight image'}
-            title={'Luxury Knitwear'}
-            description={`This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife`}
-            textLink={'shop now'}
+            title={'LATENT BECOMES POTENTIAL'}
+            description={`investigates the transition from unseen data to visible form.
+Through AI-generated imagery and continuous transformation, the work reveals how meaning emerges not from fixed structures, but from unstable, evolving processes. It presents uncertainty not as a lack, but as a generative space where new possibilities continuously unfold.`}
+            textLink={'MORE'}
             link={'/shop'}
           />
         </Container>
