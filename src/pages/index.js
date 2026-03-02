@@ -90,17 +90,17 @@ Through AI-generated imagery and continuous transformation, the work reveals how
 
       {/* Promotion */}
       <div className={styles.promotionContainer}>
-        <Hero image={toOptimizedImage('/banner2.png')} title={`-50% off \n All Essentials`} />
+        <Hero image={toOptimizedImage('/banner2.png')} title={`WIth \n DANJAM`} />
         <div className={styles.linkContainers}>
-          <Link to={'/shop'}>WOMAN</Link>
-          <Link to={'/shop'}>MAN</Link>
+          <Link to={'/shop'}>SUPERPOSITION</Link>
+          <Link to={'/shop'}>LOOPLAB</Link>
         </div>
       </div>
 
       {/* Quote */}
       <Quote
         bgColor={'var(--standard-light-grey)'}
-        title={'about Sydney'}
+        title={'about KIM MUN JUNG'}
         quote={
           '“We believe in two things: the pursuit of quality in everything we do, and looking after one another. Everything else should take care of itself.”'
         }
@@ -109,7 +109,7 @@ Through AI-generated imagery and continuous transformation, the work reveals how
       {/* Blog Grid */}
       <div className={styles.blogsContainer}>
         <Container size={'large'}>
-          <Title name={'Journal'} subtitle={'Notes on life and style'} />
+          <Title name={'2026'} subtitle={'artwork'} />
           <BlogPreviewGrid data={blogData} />
         </Container>
       </div>
@@ -118,11 +118,11 @@ Through AI-generated imagery and continuous transformation, the work reveals how
       <div className={styles.sustainableContainer}>
         <Hero
           image={toOptimizedImage('/banner3.png')}
-          title={'We are Sustainable'}
+          title={'DETERMINED, YET UNDECIDED'}
           subtitle={
-            'From caring for our land to supporting our people, discover the steps we’re taking to do more for the world around us.'
+            'Determined, yet undecided: a state where form emerges without resolution.'
           }
-          ctaText={'read more'}
+          ctaText={'more'}
           maxWidth={'660px'}
           ctaStyle={styles.ctaCustomButton}
         />
@@ -131,8 +131,8 @@ Through AI-generated imagery and continuous transformation, the work reveals how
       {/* Social Media */}
       <div className={styles.socialContainer}>
         <Title
-          name={'Styled by You'}
-          subtitle={'Tag @sydney to be featured.'}
+          name={'INSTAGRAM'}
+          subtitle={'@mightm00'}
         />
         <div className={styles.socialContentGrid}>
           <img src={toOptimizedImage(`/social/socialMedia1.png`)} alt={'social media 1'} />
