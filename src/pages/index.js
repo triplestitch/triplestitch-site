@@ -102,7 +102,7 @@ Through AI-generated imagery and continuous transformation, the work reveals how
         bgColor={'var(--standard-light-grey)'}
         title={'about KIM MUN JUNG'}
         quote={
-          '“We believe in two things: the pursuit of quality in everything we do, and looking after one another. Everything else should take care of itself.”'
+          '“Kim Mun Jung is a media artist exploring generative systems, AI-based imagery, and states of becoming—where meaning remains open and potential continues to unfold.”'
         }
       />
 
